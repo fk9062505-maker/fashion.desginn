@@ -1,0 +1,16 @@
+ body { background:#000; color:#fff; font-family:'Poppins',sans-serif; scroll-behavior:smooth; }
+    .text-gold { color:#d4af37!important; }
+    .bg-black { background:#000!important; }
+    .border-gold { border:1px solid #d4af37!important; }
+    .btn-gold { background:#d4af37; color:#000; border:none; transition:.3s; }
+    .btn-gold:hover { background:#fff; color:#000; }
+    .hero { height:100vh; background:url('https://picsum.photos/1920/1080?fashion') center/cover no-repeat; position:relative; }
+    .hero::before { content:""; position:absolute; inset:0; background:rgba(0,0,0,.6); }
+    .hero .container { position:relative; z-index:2; }
+    .page-header { height:60vh; background:url('https://picsum.photos/1920/800?gold') center/cover no-repeat; position:relative; }
+    .page-header::before { content:""; position:absolute; inset:0; background:rgba(0,0,0,.6); }
+    .page-header h1 { position:relative; z-index:2; }
+    .hover-zoom { transition:transform .4s ease; }
+    .hover-zoom:hover { transform:scale(1.05); }
+    footer { border-top:1px solid #d4af37; }
+    section { scroll-margin-top:70px; }
